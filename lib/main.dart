@@ -69,15 +69,15 @@ class TitleSection extends StatelessWidget {
                 Text(
                   location,
                   style: TextStyle(
-                    color: Colors.grey[700],
+                    color: Color.fromARGB(255, 61, 3, 237),
                   ),
                 ),
               ],
             ),
           ),
           Icon(
-            Icons.star,
-            color: Colors.red[700],
+            Icons.verified,
+            color: Color.fromARGB(255, 0, 145, 255),
           ),
           const Text('41'),
         ],
